@@ -1,0 +1,41 @@
+body {
+  &.lock {
+    overflow: hidden;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0 15px 20px 15px;
+  overflow: hidden;
+  background: #f7f7fb;
+}
+.animation-gradient {
+  background: linear-gradient(to left top, #ee706c 0%, #efa0ff 50%, #77cdec 100%);
+  background-size: 350% 350%;
+  animation: animation-gradient 15000ms infinite forwards;
+}
+[class*="__container"] {
+  display: flex;
+  align-items: center;
+  max-width: 1170px + $mainOffset * 2;
+  height: 100%;
+  padding: 0 $mainOffset;
+  margin: 0 auto;
+  @media (max-width: 425.98px) {
+    padding: 0 ($mainOffset - 5);
+  }
+}
+// ===== Animations =============================================================================================================================================================================
+@keyframes animation-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

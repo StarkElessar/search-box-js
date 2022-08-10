@@ -1,0 +1,31 @@
+$mainOffset: 15px;
+$mainFont: 'Poppins', sans-serif;
+
+$headerHeight: 100px;
+$footerHeight: 100px;
+
+$whiteColor: #fff;
+$grayColor: #f7f7fb;
+$blackColor: #353636;
+$blueColor: #0074e4;
+$skyColor: #267be5;
+
+$firstAccentColor: $blueColor;
+$secondAccentColor: $blackColor;
+
+$fontColor: $blackColor;
+
+$btnBoxShadow:  0px 2px 3px rgba($blackColor, 15%), 
+                0px 4px 4px rgba($blackColor, 25%);
+
+$lightBoxShadow:  0 0 2px 0 rgba($blackColor, 10%), 
+                  0 0 4px 0 rgba($blackColor, 10%), 
+                  0 0 8px 0 rgba($blackColor, 10%);
+
+$hoverBoxShadow:  0 0 5px 0 rgba($blackColor, 15%), 
+                  0 0 10px 0 rgba($blackColor, 15%), 
+                  0 0 15px 0 rgba($blackColor, 15%);
+
+$standartTrans: all 280ms ease 0ms;
+
+$mainRadius: 10px;
